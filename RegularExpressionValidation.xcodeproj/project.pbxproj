@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC6C44C1155058AA009FAA03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6C44C0155058AA009FAA03 /* UIKit.framework */; };
+		EC6C44C3155058AA009FAA03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6C44C2155058AA009FAA03 /* Foundation.framework */; };
+		EC6C44C5155058AA009FAA03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6C44C4155058AA009FAA03 /* CoreGraphics.framework */; };
+		EC6C44CB155058AA009FAA03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC6C44C9155058AA009FAA03 /* InfoPlist.strings */; };
+		EC6C44CD155058AA009FAA03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6C44CC155058AA009FAA03 /* main.m */; };
+		EC6C44D1155058AA009FAA03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6C44D0155058AA009FAA03 /* AppDelegate.m */; };
+		EC6C44D4155058AA009FAA03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6C44D3155058AA009FAA03 /* ViewController.m */; };
+		EC6C44D7155058AA009FAA03 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6C44D5155058AA009FAA03 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC6C44BC155058AA009FAA03 /* RegularExpressionValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegularExpressionValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6C44C0155058AA009FAA03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC6C44C2155058AA009FAA03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC6C44C4155058AA009FAA03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC6C44C8155058AA009FAA03 /* RegularExpressionValidation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RegularExpressionValidation-Info.plist"; sourceTree = "<group>"; };
+		EC6C44CA155058AA009FAA03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC6C44CC155058AA009FAA03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC6C44CE155058AA009FAA03 /* RegularExpressionValidation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RegularExpressionValidation-Prefix.pch"; sourceTree = "<group>"; };
+		EC6C44CF155058AA009FAA03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC6C44D0155058AA009FAA03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC6C44D2155058AA009FAA03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC6C44D3155058AA009FAA03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC6C44D6155058AA009FAA03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6C44B9155058AA009FAA03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6C44C1155058AA009FAA03 /* UIKit.framework in Frameworks */,
+				EC6C44C3155058AA009FAA03 /* Foundation.framework in Frameworks */,
+				EC6C44C5155058AA009FAA03 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC6C44B1155058A9009FAA03 = {
+			isa = PBXGroup;
+			children = (
+				EC6C44C6155058AA009FAA03 /* RegularExpressionValidation */,
+				EC6C44BF155058AA009FAA03 /* Frameworks */,
+				EC6C44BD155058AA009FAA03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6C44BD155058AA009FAA03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6C44BC155058AA009FAA03 /* RegularExpressionValidation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6C44BF155058AA009FAA03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC6C44C0155058AA009FAA03 /* UIKit.framework */,
+				EC6C44C2155058AA009FAA03 /* Foundation.framework */,
+				EC6C44C4155058AA009FAA03 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC6C44C6155058AA009FAA03 /* RegularExpressionValidation */ = {
+			isa = PBXGroup;
+			children = (
+				EC6C44CF155058AA009FAA03 /* AppDelegate.h */,
+				EC6C44D0155058AA009FAA03 /* AppDelegate.m */,
+				EC6C44D2155058AA009FAA03 /* ViewController.h */,
+				EC6C44D3155058AA009FAA03 /* ViewController.m */,
+				EC6C44D5155058AA009FAA03 /* ViewController.xib */,
+				EC6C44C7155058AA009FAA03 /* Supporting Files */,
+			);
+			path = RegularExpressionValidation;
+			sourceTree = "<group>";
+		};
+		EC6C44C7155058AA009FAA03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC6C44C8155058AA009FAA03 /* RegularExpressionValidation-Info.plist */,
+				EC6C44C9155058AA009FAA03 /* InfoPlist.strings */,
+				EC6C44CC155058AA009FAA03 /* main.m */,
+				EC6C44CE155058AA009FAA03 /* RegularExpressionValidation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6C44BB155058AA009FAA03 /* RegularExpressionValidation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6C44DA155058AA009FAA03 /* Build configuration list for PBXNativeTarget "RegularExpressionValidation" */;
+			buildPhases = (
+				EC6C44B8155058AA009FAA03 /* Sources */,
+				EC6C44B9155058AA009FAA03 /* Frameworks */,
+				EC6C44BA155058AA009FAA03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RegularExpressionValidation;
+			productName = RegularExpressionValidation;
+			productReference = EC6C44BC155058AA009FAA03 /* RegularExpressionValidation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6C44B3155058A9009FAA03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EC6C44B6155058A9009FAA03 /* Build configuration list for PBXProject "RegularExpressionValidation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC6C44B1155058A9009FAA03;
+			productRefGroup = EC6C44BD155058AA009FAA03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6C44BB155058AA009FAA03 /* RegularExpressionValidation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC6C44BA155058AA009FAA03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6C44CB155058AA009FAA03 /* InfoPlist.strings in Resources */,
+				EC6C44D7155058AA009FAA03 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6C44B8155058AA009FAA03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6C44CD155058AA009FAA03 /* main.m in Sources */,
+				EC6C44D1155058AA009FAA03 /* AppDelegate.m in Sources */,
+				EC6C44D4155058AA009FAA03 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC6C44C9155058AA009FAA03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6C44CA155058AA009FAA03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC6C44D5155058AA009FAA03 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6C44D6155058AA009FAA03 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC6C44D8155058AA009FAA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC6C44D9155058AA009FAA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC6C44DB155058AA009FAA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RegularExpressionValidation/RegularExpressionValidation-Prefix.pch";
+				INFOPLIST_FILE = "RegularExpressionValidation/RegularExpressionValidation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC6C44DC155058AA009FAA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RegularExpressionValidation/RegularExpressionValidation-Prefix.pch";
+				INFOPLIST_FILE = "RegularExpressionValidation/RegularExpressionValidation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6C44B6155058A9009FAA03 /* Build configuration list for PBXProject "RegularExpressionValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6C44D8155058AA009FAA03 /* Debug */,
+				EC6C44D9155058AA009FAA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6C44DA155058AA009FAA03 /* Build configuration list for PBXNativeTarget "RegularExpressionValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6C44DB155058AA009FAA03 /* Debug */,
+				EC6C44DC155058AA009FAA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC6C44B3155058A9009FAA03 /* Project object */;
+}
