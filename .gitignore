@@ -1,6 +1,9 @@
 # OS generated files #
 ######################
 .DS_Store*
-ehthumbs.db
-Icon?
-Thumbs.db
+
+# Project files #
+######################
+build
+Everbeauty.xcodeproj/project.xcworkspace/xcuserdata
+Everbeauty.xcodeproj/xcuserdata
