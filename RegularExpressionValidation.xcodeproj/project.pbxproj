@@ -276,6 +276,7 @@
 				EC6C44DC155058AA009FAA03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *statusLabel;
 
 -(IBAction)validateWithNSPredicate:(id)sender;
+-(IBAction)validateWithNSRegularExpression:(id)sender;
 -(IBAction)dismissKeyboard:(id)sender;
 -(IBAction)launchURL:(id)sender;
 

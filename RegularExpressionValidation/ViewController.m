@@ -55,6 +55,58 @@
     [phoneNumberTextField resignFirstResponder]; 
 }
 
+//NSPredicate Regex Validation
+-(IBAction)validateWithNSRegularExpression:(id)sender
+{    
+    NSLog(@"validateWithNSRegularExpression function was called...");
+    
+    //check if the TextField has a value
+    if ([phoneNumberTextField hasText] == false) {
+        
+        //set the statusLabel with the error message
+        [statusLabel setText:@"TextField has no value!"];
+        
+        //also create an alert
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Warning!" message:@"Please insert a value first!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alert show];
+        
+        NSLog(@"phoneNumberTextField has no value...");
+    } else {
+        
+        // Create a string with the Regex Rule (Pattern)
+        // ^ and $ meta characters added to match exactly that expression
+        NSString *vodafoneNumber = @"^(\\+351|00351)?91\\d{7}$";
+
+        NSString *stringToValidate = [phoneNumberTextField text];
+        
+        // Create the NSRegularExpression object
+        NSRegularExpression *regex = [NSRegularExpression
+                                      regularExpressionWithPattern:vodafoneNumber
+                                      options:NSRegularExpressionCaseInsensitive
+                                      error:nil];
+
+        
+        NSTextCheckingResult *textCheckingResult = [regex firstMatchInString:stringToValidate options:0 range:NSMakeRange(0, stringToValidate.length)];
+        
+        NSRange matchRange = [textCheckingResult rangeAtIndex:0];
+        NSString *match = [stringToValidate substringWithRange:matchRange];
+        
+        NSLog(@"Found string '%@'", match);
+        
+        if (match.length == 0) {
+            
+            [statusLabel setText:@"The number is not valid. Try again!"];
+        } else {
+            
+            [statusLabel setText:@"The number is valid =)"];
+        }
+    }
+    //clear the TextField
+    [phoneNumberTextField setText:nil];
+    //set resignFirstResponder to dismiss the keyboard on this action
+    [phoneNumberTextField resignFirstResponder];
+}
+
 //dismiss the Keyboard from the TextField
 -(IBAction)dismissKeyboard:(id)sender {
     [phoneNumberTextField resignFirstResponder];
